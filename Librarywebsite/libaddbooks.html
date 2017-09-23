@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ADMIN</title>
+
+<style>
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+
+
+</head>
+<body background="https://pcbx.us/bfjb.jpg">
+<center><h2><i>ADD BOOKS</i></h2></center>
+
+<center><form action="libaddbooks.php" method="post" id="usrform">
+
+	<p>
+        <label><b>Book Name:</b></label>
+        <input type="text" name="bookname"><br><br>
+		<label><b>Author:</b></label>
+		<input type="text" name="author"><br><br>
+		<label><b>Category:</b></label>
+		<input type="text" name="category"><br><br>
+		<label><b>Publisher:</b></label>
+		<input type="text" name="publisher"><br><br>
+		<label><b>Language:</b></label>
+		<input type="text" name="language"><br><br>
+		<label><b>Edition:</b></label>
+		<input type="int" name="edition"><br><br>
+		<label><b>Price:</b></label>
+		<input type="int" name="price"><br><br>
+		<label><b>Pages:</b></label>
+		<input type="int" name="pages"><br><br>
+		<label><b>Actual Copies:</b></label>
+		<input type="int" name="actualcopies"><br><br>
+		<label><b>Current Copies:</b></label>
+		<input type="int" name="currentcopies"><br><br>
+		<label><b>Rack:</b></label>
+		<input type="int" name="rack"><br><br>
+		<label><b>Date Added:</b></label>
+		<input type="date" name="dateadded"><br><br>
+		<label><b>Description:</b></label>
+		<!--<input type="text" name="description" height="500"><br><br>-->
+		<textarea rows="4" cols="50" name="description" form="usrform">
+Describe the book...</textarea><br><br>
+		<label><b>Import:</b></label>
+		<input type="text" name="import"><br><br>
+		<label><b>Available:</b></label>
+		<input type="text" name="available"><br><br>
+	</p>
+	
+   
+    <button class="button" input type="submit" value="Submit">Submit</button>
+</form>
+
+
+</center><br>
